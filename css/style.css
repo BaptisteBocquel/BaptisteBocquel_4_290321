@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -290,21 +290,49 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+    width: 100%;
+}
+
+#bloc-0{
+    width: 100%;
+}
+.mr-auto, .mx-auto {
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: auto!important;
+}
+
+.nav-bar{
+    margin-right: 0;
+    padding-right: 0;
 }
 
 .navbar-brand {
-    height: auto;
-    padding: 3px 15px;
+    display:block;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
+.logo-nav{
+    height: 40px;
+    width: 100%;
+    margin-left: 15px;
+}
 
-.navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
+
+.logo-nav a img { 
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.dropdown{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0;
 }
 
 .navbar-brand img[src$=svg] {
@@ -314,7 +342,9 @@ a:hover {
 .nav-center .navbar-brand img {
     margin: 0;
 }
-
+a.nav-link{
+    float: right;
+}
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
