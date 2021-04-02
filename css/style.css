@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -90,8 +90,8 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
+.texture-paper::before{
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -293,9 +293,11 @@ a:hover {
     width: 100%;
 }
 
-#bloc-0{
+#bloc-4-portfolio img{
     width: 100%;
+    height:100%;
 }
+
 .mr-auto, .mx-auto {
     margin-right: 0;
     padding-right: 0;
@@ -668,7 +670,9 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-
+h1{
+    margin-top: 15px;
+}
 h1,
 h2,
 h3,
@@ -706,15 +710,31 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+h2 {
+    font-size: 17px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
+.row{
+    justify-content: center;
+}
 
+blockquote p{
+    font-weight: 600;
+}
+
+blockquote strong{
+    font-weight: 600;
+}
+
+.text1 strong{
+    font-weight: normal;
+}
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -840,19 +860,19 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("../img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("../img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -991,6 +1011,13 @@ h4 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+
+    p{
+        padding-right: 30px;
+        padding-left: 30px;
+        font-size: 17px;
+    }
+
     .navbar-brand img {
         max-height: 40px;
         width: auto;
@@ -1063,10 +1090,23 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+
+@media (max-width: 350px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    h2{
+        margin-left: 0;
+        margin-right: 0;
     }
 }
