@@ -283,6 +283,11 @@ a:hover {
     padding-left: 0;
 }
 
+#bloc-1-hero img{
+    width: 150px;
+    height: 150px;
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -291,6 +296,10 @@ a:hover {
     margin-bottom: 0;
     z-index: 1;
     width: 100%;
+}
+
+p{
+    font-size: 20px;
 }
 
 #bloc-4-portfolio img{
@@ -392,6 +401,10 @@ a.nav-link{
     float: right;
     position: relative;
     z-index: 2;
+}
+.icone-rs{
+    width: 200px;
+    flex-wrap: nowrap;
 }
 
 @media (min-width: 768px) {
@@ -869,6 +882,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("../img/la-chouette-agence-banniere.jpg");
+    background-repeat: repeat-x;
 }
 
 .bg-presentation {
@@ -1015,7 +1029,7 @@ h4 {
     p{
         padding-right: 30px;
         padding-left: 30px;
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .navbar-brand img {
@@ -1083,6 +1097,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    
 }
 
 @media (max-width: 400px) {
@@ -1097,6 +1112,7 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    
 }
 
 
