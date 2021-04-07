@@ -13,6 +13,15 @@ button {
     outline: none!important;
 }
 
+
+.cta-hero {
+    margin-top: 22px;
+    color: #000!important;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -133,7 +142,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +159,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -271,6 +280,18 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
+
+#bloc-8 a{
+    display: block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.insta{
+    margin-left: 10px;
+}
+
 
 .row-no-gutters {
     margin-right: 0;
@@ -535,7 +556,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
+    color: #000;
     background: rgba(0, 0, 0, .3);
 }
 
@@ -555,7 +576,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 45px!important;
 }
 
 .icon-lg {
@@ -880,12 +901,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: rgba(61,36,3)!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: rgb(61, 36, 3)!important;
 }
 
 .ltc-white {
