@@ -898,7 +898,9 @@ h4 {
 #bloc-5-cta h2{
     color: #fff!important;
 }
-
+.black{
+    color: #000!important;
+}
 .btn-atomic-tangerine {
     background: #F3976C;
     color: rgba(61,36,3)!important;
