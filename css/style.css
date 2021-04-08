@@ -898,6 +898,15 @@ h4 {
 #bloc-5-cta h2{
     color: #fff!important;
 }
+
+#formulaire h2{
+    margin-top: 15px;
+    text-align: center;
+}
+
+#formulaire .bloc-lg{
+    padding-top: 20px;
+}
 .black{
     color: #000!important;
 }
